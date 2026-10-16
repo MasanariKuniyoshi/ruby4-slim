@@ -10,6 +10,8 @@ WORKDIR /app
 RUN apt-get update -qq && apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
+    chromium \
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
 # ソースコードやGemfileのコピーと依存関係のインストール
