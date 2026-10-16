@@ -1,4 +1,4 @@
-# ruby4-slim
+# ruby4
 
 Ruby 4.0 slim 環境で動く最小構成の Docker 学習用プロジェクトです。
 
